@@ -3,64 +3,76 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>CFP's Teaching Portfolio</title>
-    
-    <!-- Google Fonts: Quicksand -->
-    <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet" />
-    
-    <style>
-      body {
-        font-family: 'Quicksand', sans-serif;
-        background-color: rgb(146, 229, 232);
-      }
-    </style>
+    <title>CFP's Teaching Portfoli - Home Page </title>
+    <link rel="stylesheet" href="starter.css">
+
 </head>
-<body>
-   
-    <!--This is the main heading for my page-->
-    <h1 style="color:rgb(33, 2, 116) ", title= "Miss Franks-Pearsons" My Teaching Portfolio</h1>
-  <!--This is an example of using a tooltip, or getting extra info when hovering over a word-->
-    <p title="This is a tool">My Teaching Portfolio</p>
-    <hr> 
+
    
 <header>
-    <h1>Teaching Philosophy</h1>
-  </header>
+    <h1> My Teaching Portfolio </h1>
+ </header>
+
+<body>
+  
+
+  <!--Navtigation menu-->
     <nav>
-      <h3>
-      <li><a href="index.html" target="_blank">Home</a></li>
-      <li></li><a href="about.html" target="_blank">About Me</a></li>
-      <li></li><a href="WorkShowcase.html" target="_blank">Past Work and Samples</a></li>
-      <li></li><a href="teachingprac.html" target="_blank">Teaching Practice and Past Experience</a></li>
-      <li></li><a href="xtra.html" target="_blank">TBD </a></li>
-      <li></li> <a href="Contact.html" target="_blank">Contact Me</a></li>
-      </h3>
+      <div class="container">
+        <ul>
+          <li><a class="active" href="index.html" target="_blank">Home</a></li>
+          <li></li><a href="about.html" target="_blank">About Me</a></li>
+          <li></li><a href="WorkShowcase.html" target="_blank">Past Work and Samples</a></li>
+          <li></li><a href="teachingprac.html" target="_blank">Teaching Practice and Past Experience</a><li>
+          <li></li><a href="xtra.html" target="_blank">TBD </a></li>
+          <li></li> <a href="Contact.html" target="_blank">Contact Me</a></li>
+        </ul>
+      </div>
     </nav>
 
   <main>
     <!--This section contains ,y profile photo / image-->
-  <section>
-    <img src="images/profileimg.png" width="350" alt="Description" style="display: block; margin: 0 auto;" />
+  <section class="section">
+    <article class="profile">
+      <div class="profile-text">
+          <p> My name is <strong>Charlotte Franks-Pearson</strong> and I am currently in my third year of completing  <em>a Bachelor of Design - (Technologies and Applied Sciences) - and a Bachelor of Education (Secondary)</em>, at <a href="https://www.acu.edu.au/"> Australian Catholic University. </a> I am majoring in Food Technology and minoring in textiles however my otehr skilla reas are listed below.</p>
+        <!--This is a list of sUbjects I can teach, creating an unordered list example-->
+          <h2>Other Skill Areas</h2>
+          <ul>
+            <li>Woodwork (Year 7 & 8 Level)</li>
+            <li>MetalWork(Year7 & 8 Level)</li>
+            <li>Engineering (Year 7 & 8 Level)</li>
+            <li>Digital Technologies (Year 7 & 8 level)</li>
+            <li>Design and Technology</li>
+          </ul>
+        <h2>Professional Journey</h2>
+        <p>1. Completing my Course at the end of 2026, and eligible for working in a school at the end of 2025.</p>
+        <p>2. Completed three professional Placements, more information can be found on <a href="teachingprac.html" target="_blank">Teaching Practice and Past Experience</a></p>
+        </div>
+
+      <div class="profile-photo">
+        <img src="images/profile.png" alt="Image of Charlotte Franks-Pearson" />
+      </div>
+    </article>
   </section>
 
   <section>
   <!--This is an example of how to use the attribute of adding a link, but also an intro about me-->
-  <p> My name is <strong>Charlotte</strong> and I am currently in my third year of <em>a Bachelor of Design - (Technologies and Applied Sciences) - and a Bachelor of Education (Secondary)</em>, at <a href="https://www.acu.edu.au/">Australian Catholic University</a></p>
   </section>
   
   <section>
- <!--This is a list of sUbjects I can teach, creating an unordered list example-->
-  <h2>Other Skill Areas</h2>
-  <ul>
-    <li>Woodwork (Year 7 & 8 Level)</li>
-    <li>MetalWork(Year7 & 8 Level)</li>
-    <li>Engineering (Year 7 & 8 Level)</li>
-    <li>Digital Technologies (Year 7 & 8 level)</li>
-    <li>Design and Technology</li>
-  </ul>
-  </section>
 
 
 </main>
 </body> 
+
+<!--This is the footer section of my page, in line witrh semantic HTML-->
+<footer>
+  <div class="container">
+    <p> &copy; 2025 Charlotte Franks-Pearson. All Rights Reserved </p>
+  </div>
+</footer>
+
 </html>
+
+

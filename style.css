@@ -1,0 +1,48 @@
+h1 {
+    color: rgb(33, 2, 116) ;
+}
+
+body {
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgb(193, 235, 237);
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.textiles {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.textiles-text {
+    flex: 1;
+}
+
+.textiles-img{
+    width: 60%;
+    border-radius: 8px;
+
+}
+
+.quilt{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.quilt-text{
+    flex:1;
+
+}
+
+.textiles-img{
+    width: 60%;
+    border-radius: 8px;
+}
