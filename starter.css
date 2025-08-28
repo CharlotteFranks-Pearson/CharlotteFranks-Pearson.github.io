@@ -23,6 +23,10 @@ img {
   display: block;   /* Removes small gap under images by making them block-level */
 }
 
+ul{
+  color: #000000;
+}
+
 /* ---------- 2) Core Theme Tokens ----------- */
 :root {
   --brand: #1c4c96;        /* primary colour */
@@ -174,6 +178,20 @@ nav a:focus-visible {
   border-radius: 8px;
 }
 
+.yolanda{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.yolanda-photo{
+  display: flex;
+  margin-left: 8px;
+  margin-right: auto;
+  width: 30%;
+  border-radius: 8px;
+}
+
 .about-me{
   display: flex;
   align-items: center;
@@ -223,8 +241,11 @@ table {
   margin-top: 10px;           /* Space above table */
   font-family: 'Quicksand', sans-serif;     /* Table font */
 }
+
+
 th, td {
   border: 1px solid #051268;   /* Light grey cell borders */
+  color: #000000;
   padding: 10px 12px;         /* Space inside cells */
   text-align: left;           /* Aligns text to the left */
 }

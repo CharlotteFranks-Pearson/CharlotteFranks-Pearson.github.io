@@ -12,24 +12,47 @@
 
 <!--Navigation menu section  -->
     <nav>
-      <h3>
-      <li><a href="index.html" target="_blank">Home</a></li>
-      <li></li><a href="about.html" target="_blank">About Me</a></li>
-      <li></li><a href="WorkShowcase.html" target="_blank">Past Work and Samples</a></li>
-      <li></li><a href="teachingprac.html" target="_blank">Teaching Practice and Past Experience</a></li>
-      <li></li><a href="xtra.html" target="_blank">TBD </a></li>
-      <li></li> <a class="active" href="Contact.html" target="_blank">Contact Me</a></li>
-      </h3>
+      <div class="container">
+        <ul>
+          <li><a class="active" href="index.html" target="_blank">Home</a></li>
+          <li></li><a href="about.html" target="_blank">About Me</a></li>
+          <li></li><a href="WorkShowcase.html" target="_blank">Past Work and Samples</a></li>
+          <li></li><a href="teachingprac.html" target="_blank">Past Teaching Experience</a><li>
+          <li></li><a href="resources.html" target="_blank"> Resources</a>
+          <li></li><a href="resume.html" target="_blank">Resume </a></li>
+          <li></li> <a href="Contact.html" target="_blank">Contact Me</a></li>
+        </ul>
+      </div>
     </nav>
+
 <!--Main content of how to contact me TBA-->
 
-<main>
+
 </head>
 <body>
-    
+    <main>
+      <section class="section">
+        <!--Creating a form for people to input questions/queries/concerns-->
+        <form id="contact-form" action="#" method="post" autocomplete="on">
+          <fieldset>
+          <legend> Your Details </legend>
+          <label for="name">Full Name</label>
+          <input id="name" name="name" type="text" placeholder="John Doe" required minlength="5">
+          <!--Form text for inputting email address-->
+          <label for="email">Email Address</label>
+          <input id="email" name="email" type="email" placeholder="name@email.com" required autocomplete="email">
+          <!--form text for message -->
+          <label for="message">Message</label>
+          <textarea id="message" name="message" type="message" placeholder="Enquires" required minlength="13"></textarea>
+          <!--honey pot anti-spam field-->
+          <input type="text" name="honey" tabindex="-1" area-hidden="true" style="position:absolute;left:-9999px;">
+          <!--Button tag used for input-->
+          <button type="submit"> Send</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
 </body>
-
-</main>
 
 <!--This is the footer section of my page, in line witrh semantic HTML-->
 <footer>
